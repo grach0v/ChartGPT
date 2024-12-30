@@ -1,13 +1,15 @@
 # ChartGPT
 
-# ChartGPT
+ChartGPT leverages the power of Large Language Models (LLMs) and the Draco visualization library to automatically generate insightful and comprehensive plots from your dataframes. 
+Simplify your data visualization process with intelligent automation tailored to your dataset's unique characteristics.
 
-ChartGPT leverages the power of Large Language Models (LLMs) and the Draco visualization library to automatically generate insightful and comprehensive plots from your dataframes. Simplify your data visualization process with intelligent automation tailored to your dataset's unique characteristics.
+## Description
 
-## Features
-
-- **Automatic Column Selection**: Utilizes LLMs to intelligently select the most relevant columns for visualization.
-- **Comprehensive Visualizations**: Generates a variety of plot types including scatter plots, bar charts, histograms, and more using Draco.
+This is proof of consept project and just little investigation on how one could use LLMs to generate plots from dataframes.  
+As well as little introduction to Draco visualization library.  
+All the experiments are in `report.ipynb` notebook.  
+For the sake of simplicity and development speed, I didn't bother arranging code in very professional way, distributing it in modules, etc.  
+Fun fact: Unknown bird in Texas caused more than 7mln$ damage in 1998.
 
 ## Installation
 
@@ -20,3 +22,5 @@ ChartGPT leverages the power of Large Language Models (LLMs) and the Draco visua
     source env/bin/activate
     pip install -r requirements.txt
    ```
+
+2. You are done! Now you can run the `report.ipynb` notebook to see the experiments.
